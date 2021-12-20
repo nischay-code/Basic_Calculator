@@ -18,7 +18,7 @@ body {
 }
 #display {
   border: none;
-  background:white;
+  background: white;
   border-radius: 30px;
   width: 245;
   font-size: 20;
@@ -44,7 +44,7 @@ body {
 .operatorDesign {
   width: 55;
   height: 55;
-  background:white;
+  background: white;
   font-size: 55;
   padding-top: -1;
   border: none;
