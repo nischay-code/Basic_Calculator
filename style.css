@@ -18,14 +18,14 @@ body {
 }
 #display {
   border: none;
-  background: white;
+  background:white;
   border-radius: 30px;
   width: 245;
   font-size: 20;
   font-family: sans-serif;
   font-weight: 300;
   height: 60;
-  margin: auto;
+  margin: 10;
   border: 2px solid white;
   color: black;
 }
@@ -44,7 +44,7 @@ body {
 .operatorDesign {
   width: 55;
   height: 55;
-  background: white;
+  background:white;
   font-size: 55;
   padding-top: -1;
   border: none;
@@ -75,7 +75,7 @@ body {
 
 h1 {
   color: white;
-  margin-top: 300px;
+  margin-top: 276px;
   margin-left: 190px;
   text-transform: uppercase;
   font-family: sans-serif;
@@ -85,9 +85,8 @@ h1 {
 }
 h2 {
   color: white;
-  margin-top: -1px;
+  margin-top: -150px;
   margin-left: 505px;
   font-family: sans-serif;
-  font-weight: 700px;
   font-size: 40;
 }
