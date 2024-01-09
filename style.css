@@ -1,46 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Poppins&family=Roboto+Condensed&family=Roboto:wght@100&display=swap');
+
 body {
   margin: 0;
-  line-height: 4;
   padding: 0;
-  display: block;
   background: linear-gradient(to top, #7808f0, #06bdf5);
+  font-family: 'Poppins', sans-serif;
 }
+
 .calci {
-  width: 500px;
-  padding-top: 100px;
+  max-width: 400px;
+  padding-top: 70px;
   padding-bottom: 100px;
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.25px;
   text-align: center;
 }
+
 #display {
   border: none;
   background: white;
   border-radius: 30px;
   width: 245;
   font-size: 20;
-  font-family: sans-serif;
   font-weight: 300;
   height: 60;
   margin: 10;
   border: 2px solid white;
   color: black;
 }
+
 .btnDesign {
   width: 55;
   height: 55;
-  padding-top: -1;
   background: white;
   border: none;
-  font-family: sans-serif;
   font-size: 20;
   font-weight: 300;
   border-radius: 30px;
-  margin: 1.5;
+  margin-bottom: 3px;
 }
+
 .operatorDesign {
   width: 55;
   height: 55;
@@ -48,7 +50,6 @@ body {
   font-size: 55;
   padding-top: -1;
   border: none;
-  font-family: sans-serif;
   font-size: 20;
   font-weight: 300;
   border-radius: 30px;
@@ -56,16 +57,17 @@ body {
   transition: 00.25px;
   cursor: pointer;
 }
+
 .operatorDesign:hover {
   background: color #00d9ff;
 }
+
 #zero {
   width: 116;
   height: 55;
   font-size: 55;
   padding-top: -1;
   border: none;
-  font-family: sans-serif;
   font-size: 20;
   font-weight: 300;
   border-radius: 30px;
@@ -74,19 +76,19 @@ body {
 }
 
 h1 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
-  margin-top: 276px;
-  margin-left: 190px;
   text-transform: uppercase;
-  font-family: sans-serif;
-  font-weight: 700px;
-  font-size: 50;
+  font-size: 50px;
   text-decoration: underline;
 }
-h2 {
-  color: white;
-  margin-top: -150px;
-  margin-left: 505px;
-  font-family: sans-serif;
-  font-size: 40;
+
+@media (max-width: 580px) {
+  h1 {
+    font-size: 40px;
+    margin-left: 50px;
+  }
 }
